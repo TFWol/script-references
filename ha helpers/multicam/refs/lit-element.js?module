@@ -11,11 +11,11 @@
  * subject to an additional IP rights grant found at
  * http://polymer.github.io/PATENTS.txt
  */
-import { render } from "https://unpkg.com/lit-html@^1.1.1/lib/shady-render.js?module";
+import { render } from "https://raw.githubusercontent.com/thefinalwolf/script-references/main/ha%20helpers/multicam/refs/shady-render.js%3Fmodule";
 import { UpdatingElement } from "./lib/updating-element.js?module";
 export * from "./lib/updating-element.js?module";
 export * from "./lib/decorators.js?module";
-export { html, svg, TemplateResult, SVGTemplateResult } from "https://unpkg.com/lit-html@^1.1.1/lit-html.js?module";
+export { html, svg, TemplateResult, SVGTemplateResult } from "https://raw.githubusercontent.com/thefinalwolf/script-references/main/ha%20helpers/multicam/refs/lit-html.js%3Fmodule";
 import { supportsAdoptingStyleSheets } from "./lib/css-tag.js?module";
 export * from "./lib/css-tag.js?module";
 // IMPORTANT: do not change the property name or the assignment expression.

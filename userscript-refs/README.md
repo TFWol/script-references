@@ -40,4 +40,7 @@ const disconnect = VM.observe(document.body, () => {
 disconnect();
 ```
 
-REF: https://violentmonkey.github.io/guide/observing-dom/
+REF: 
+  - https://violentmonkey.github.io/guide/observing-dom/
+  - https://violentmonkey.github.io/vm-dom/functions/observe.html
+

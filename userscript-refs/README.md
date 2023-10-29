@@ -21,6 +21,7 @@ That is, just like you would use `GM_setValue` and `GM_getValue`
 ## ViolentMonkeyDOM
 Makes using MutationObserver a bit more convenient via **VM.observe**.
 
+Should use `// @require url-to-raw-file.js`
 ```js
 const disconnect = VM.observe(document.body, () => {
   // Find the target node
@@ -39,6 +40,13 @@ const disconnect = VM.observe(document.body, () => {
 // You can also disconnect the observer explicitly when it's not used any more
 disconnect();
 ```
+
+I can also use **VM.getTextValues** to get an array of text
+
+```javascript
+console.log(VM.getTextValues(node)) // creates an array of text values
+```
+
 
 REF: 
   - https://violentmonkey.github.io/guide/observing-dom/
